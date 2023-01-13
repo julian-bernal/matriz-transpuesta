@@ -3,4 +3,6 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Matriz Transpuesta</title>
+    <link href='assets/css/styles.css' rel='stylesheet' type='text/css'>
+    <script src="assets/js/jquery/jquery-3.6.3.min.js"></script>
 </head>
