@@ -1,72 +1,73 @@
-#body{
-    background-image: url(../images/programador.gif);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-color: #999;
+#body {
+  background-image: url(../images/programador.gif);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #999;
 }
 
-h1{
-    font-family: 'Courier New', Courier, monospace;
+h1 {
+  font-family: 'Courier New', Courier, monospace;
 }
 
-label{
-    color: aliceblue;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-    font-size: large;
+label {
+  color: aliceblue;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: large;
 }
 
-#title{
-    text-align: center;
-    color: aliceblue;
+#title {
+  text-align: center;
+  color: aliceblue;
 }
 
-  
+
 .container {
-    padding: 2px 16px;
-    text-align: center;
-    border-radius: 5%;
+  padding: 2px 16px;
+  text-align: center;
+  border-radius: 5%;
 }
 
-#btnEstablecerMatriz{
-    background-color: green;
-    color: aliceblue;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-    font-size: large;
-    cursor: pointer;
+#btnEstablecerMatriz {
+  background-color: green;
+  color: aliceblue;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: large;
+  cursor: pointer;
 }
 
-input{
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-    font-size: large;
+input {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: large;
 }
 
-.inputMatriz[type=number]::-webkit-inner-spin-button, 
-.inputMatriz[type=number]::-webkit-outer-spin-button { 
-  -webkit-appearance: none; 
-  margin: 0; 
-  
+.inputMatriz[type=number]::-webkit-inner-spin-button,
+.inputMatriz[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+
 }
 
-.inputMatriz{
-    width: 80%;
-    text-align: center;
+.inputMatriz {
+  width: 100%;
+  text-align: center;
 }
 
-table{
-    table-layout: fixed;
-    width: 250px;
-    text-align: center;
+table {
+  table-layout: fixed;
+  width: 250px;
+  text-align: center;
 }
 
-th, td {
-    border: 2px solid rgb(0, 255, 42);
-    width: 20px;
-    word-wrap: break-word;
+th,
+td {
+  border: 2px solid rgb(0, 255, 42);
+  width: 20px;
+  word-wrap: break-word;
 }
 
 
@@ -80,10 +81,8 @@ th, td {
   border-radius: 0.5rem;
   box-shadow: 0.05rem 0.1rem 0.3rem -0.03rem rgba(0, 0, 0, 0.45);
   padding-bottom: 1rem;
-  background-image: linear-gradient(
-    var(--card-gradient),
-    rgba(27, 26, 26, 0.3) max(9.5rem, 27vh)
-  );
+  background-image: linear-gradient(var(--card-gradient),
+      rgba(27, 26, 26, 0.3) max(9.5rem, 27vh));
   overflow: hidden;
 
 }
