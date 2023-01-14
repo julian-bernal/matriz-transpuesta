@@ -1,0 +1,116 @@
+#body{
+    background-image: url(../images/programador.gif);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #999;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+label{
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: large;
+}
+
+#title{
+    text-align: center;
+    color: aliceblue;
+}
+
+  
+.container {
+    padding: 2px 16px;
+    text-align: center;
+    border-radius: 5%;
+}
+
+#btnEstablecerMatriz{
+    background-color: green;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: large;
+    cursor: pointer;
+}
+
+input{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: large;
+}
+
+.inputMatriz[type=number]::-webkit-inner-spin-button, 
+.inputMatriz[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+  
+}
+
+.inputMatriz{
+    width: 80%;
+    text-align: center;
+}
+
+table{
+    table-layout: fixed;
+    width: 250px;
+    text-align: center;
+}
+
+th, td {
+    border: 2px solid rgb(0, 255, 42);
+    width: 20px;
+    word-wrap: break-word;
+}
+
+
+.card {
+  --card-gradient: rgba(72, 71, 71, 0.262);
+  /* --card-gradient: #5e9ad9, #e271ad;
+  --card-gradient: tomato, orange; */
+  --card-blend-mode: overlay;
+  --card-blend-mode: multiply;
+  background-color: rgba(109, 108, 108, 0.062);
+  border-radius: 0.5rem;
+  box-shadow: 0.05rem 0.1rem 0.3rem -0.03rem rgba(0, 0, 0, 0.45);
+  padding-bottom: 1rem;
+  background-image: linear-gradient(
+    var(--card-gradient),
+    rgba(27, 26, 26, 0.3) max(9.5rem, 27vh)
+  );
+  overflow: hidden;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.card h3 {
+  margin-top: 1rem;
+  font-size: 1.25rem;
+}
+
+.card a {
+  color: inherit;
+}
+
+.card-wrapper {
+  list-style: none;
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30ch, 1fr));
+  grid-gap: 1.5rem;
+  max-width: 100vw;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-align: center;
+  align-items: center;
+}
