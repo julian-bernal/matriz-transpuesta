@@ -1,0 +1,2 @@
+# matriz-transpuesta
+Matriz transpuesta
